@@ -1,0 +1,90 @@
+body {
+	font-family: 'Helvetica', 'Arial', Sans-Serif;
+	text-align: center;
+	user-select: none;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#topbar {
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 900;
+}
+
+#guesses {
+	position: absolute;
+	left: 50px;
+	right: 50px;
+}
+
+.letter {
+	border: 2px solid lightgray;
+	margin: 2px;
+	margin-top: 200px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#keyboard, #EnterDelete {
+	position: absolute;
+	width: 100%;
+}
+
+#keyboard {
+	bottom: 300px;
+}
+
+#EnterDelete {
+	bottom: 200px;
+}
+
+.key {
+	background-color: lightgray;
+	margin: 2px;
+	width: 48px;
+	height: 56px;
+	border-radius: 8px;
+	line-height: 56px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.c {
+	cursor: pointer;
+}
+
+.key.del, .key.enter {
+	width: 68px;
+}
+
+.letter.guessed {
+	border: 2px solid black;
+}
+
+.letter.correct {
+	background-color: limegreen;
+	border: 2px solid white;
+	color: white;
+}
+
+#help {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	border: 2px solid black;
+	border-radius: 14px;
+}
