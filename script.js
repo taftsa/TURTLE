@@ -21,10 +21,10 @@ $(document).on('click', '.Enter.c', function(){
 			$('#guesses').effect('shake');
 		};
 	} else {
-		$('#guesses').effect('shake');
+		$('#guesses').effect('shake', {distance: 8});
 	};
 });
 
 $(document).on('click', '#help', function(){
-	alert('\r\nGuess the TURTLE in one try.\r\n\r\nEach guess must be the six-letter word "TURTLE."\r\n\r\nThe correct answer is and anwys will be "TURTLE."\r\n\r\nA new TURTLE will be available each time you open your browser!');
+	alert('\r\nGuess the TURTLE in one try.\r\n\r\nEach guess must be the six-letter word "TURTLE."\r\n\r\nThe correct answer is and always will be "TURTLE."\r\n\r\nA new TURTLE will be available each time you open your browser!');
 });

@@ -20,8 +20,8 @@ body {
 
 #guesses {
 	position: absolute;
-	left: 20px;
-	right: 20px;
+	left: 8px;
+	right: 8px;
 }
 
 .letter {
