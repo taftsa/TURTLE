@@ -12,9 +12,9 @@ body {
 #topbar {
 	text-align: center;
 	border-bottom: 1px solid lightgray;
-	height: 100px;
-	line-height: 100px;
-	font-size: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
 	font-weight: 900;
 }
 
@@ -28,12 +28,12 @@ body {
 	border: 2px solid lightgray;
 	margin: 2px;
 	margin-top: 200px;
-	width: 112px;
-	height: 112px;
-	line-height: 112px;
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 58px;
+	font-size: 29px;
 	font-weight: 700;
 }
 
@@ -53,10 +53,10 @@ body {
 .key {
 	background-color: lightgray;
 	margin: 2px;
-	width: 96px;
-	height: 112px;
-	border-radius: 16px;
-	line-height: 112px;
+	width: 48px;
+	height: 56px;
+	border-radius: 8px;
+	line-height: 56px;
 	display: inline-block;
 	font-weight: bold;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .key.del, .key.enter {
-	width: 136px;
+	width: 68px;
 }
 
 .letter.guessed {
