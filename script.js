@@ -17,6 +17,8 @@ $(document).on('click', '.Enter.c', function(){
 		if (guessedWord == "TURTLE") {
 			$('.letter.guessed').addClass('correct');
 			$('.c').removeClass('c');
+			
+			$('body').append('<div id="share"><div id="shareText">SHARE</div> <img id="shareImage" src="share.png" width="30px" /></div>');
 		} else {
 			$('#guesses').effect('shake');
 		};
@@ -27,4 +29,12 @@ $(document).on('click', '.Enter.c', function(){
 
 $(document).on('click', '#help', function(){
 	alert('\r\nGuess the TURTLE in one try.\r\n\r\nEach guess must be the six-letter word "TURTLE."\r\n\r\nThe correct answer is and always will be "TURTLE."\r\n\r\nA new TURTLE will be available each time you open your browser!');
+});
+
+$(document).on('click', '#share', function(){
+	navigator.share({
+		title: 'Turtle',
+		text: 'Turtle #1 1/1\r\n\r\n🟩🟩🟩🟩🟩🟩',
+		url: 'https://turtle.sethataft.com'
+	});
 });

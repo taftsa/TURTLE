@@ -89,3 +89,26 @@ body {
 	border: 2px solid black;
 	border-radius: 14px;
 }
+
+#share {
+	margin: auto;
+	margin-top: 400px;
+	background-color: gainsboro;
+	border-radius: 12px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	width: 160px;
+	cursor: pointer;
+}
+
+#shareText, #shareImage {
+	vertical-align: top;
+	display: inline-block;
+}
+
+#shareImage {
+	height: 30px;
+	width: 30px;
+	margin: 15px 5px 5px 5px;
+}
