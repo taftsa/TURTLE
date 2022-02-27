@@ -18,7 +18,7 @@ $(document).on('click', '.Enter.c', function(){
 			$('.letter.guessed').addClass('correct');
 			$('.c').removeClass('c');
 			
-			$('body').append('<div id="share"><div id="shareText">SHARE</div> <img id="shareImage" src="share.png" width="30px" /></div>');
+			$('#shareBar').append('<div id="share"><div id="shareText">SHARE</div> <img id="shareImage" src="share.png" width="30px" /></div>');
 		} else {
 			$('#guesses').effect('shake');
 		};
