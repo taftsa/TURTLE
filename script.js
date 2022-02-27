@@ -34,7 +34,7 @@ $(document).on('click', '#help', function(){
 $(document).on('click', '#share', function(){
 	navigator.share({
 		title: 'Turtle',
-		text: 'Turtle #1 1/1\r\n\r\n🟩🟩🟩🟩🟩🟩',
+		text: 'Turtle 1/1 🟩🟩🟩🟩🟩🟩',
 		url: 'https://turtle.sethataft.com'
 	});
 });
